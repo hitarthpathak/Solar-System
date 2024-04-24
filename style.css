@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("Images/Stars.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.solar-system {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun-box {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+}
+
+.sun {
+    background-image: url("Images/Sun.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    animation: rotation 50s linear infinite;
+}
+
+.mercury-box {
+    height: 5rem;
+    width: 5rem;
+    animation: rotation 5s linear infinite;
+    position: absolute;
+}
+
+.mercury {
+    background-image: url("Images/Mercury.jpg");
+    height: 15%;
+    width: 15%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.venus-box {
+    height: 7rem;
+    width: 7rem;
+    animation: rotation 10s linear infinite;
+    position: absolute;
+}
+
+.venus {
+    background-image: url("Images/Venus.jpg");
+    height: 14%;
+    width: 14%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.earth-box {
+    height: 10rem;
+    width: 10rem;
+    animation: rotation 15s linear infinite;
+    position: absolute;
+}
+
+.earth {
+    background-image: url("Images/Earth.jpg");
+    height: 15%;
+    width: 15%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.moon-box {
+    height: 3rem;
+    width: 3rem;
+    animation: rotation 13s linear infinite;
+    position: relative;
+    bottom: 0.7rem;
+    right: 0.7rem;
+}
+
+.moon {
+    background-image: url("Images/Moon.jpg");
+    height: 30%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mars-box {
+    height: 12rem;
+    width: 12rem;
+    animation: rotation 20s linear infinite;
+    position: absolute;
+}
+
+.mars {
+    background-image: url("Images/Mars.jpg");
+    height: 10%;
+    width: 10%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.jupiter-box {
+    height: 16rem;
+    width: 16rem;
+    animation: rotation 25s linear infinite;
+    position: absolute;
+}
+
+.jupiter {
+    background-image: url("Images/Jupiter.jpg");
+    height: 15%;
+    width: 15%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.saturn-box {
+    height: 20rem;
+    width: 20rem;
+    animation: rotation 30s linear infinite;
+    position: absolute;
+}
+
+.saturn {
+    background-image: url("Images/Saturn.jpg");
+    height: 10%;
+    width: 15%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.uranus-box {
+    height: 22rem;
+    width: 22rem;
+    animation: rotation 35s linear infinite;
+    position: absolute;
+}
+
+.uranus {
+    background-image: url("Images/Uranus.jpg");
+    height: 5%;
+    width: 5%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.neptune-box {
+    height: 24.5rem;
+    width: 24.5rem;
+    animation: rotation 40s linear infinite;
+    position: absolute;
+}
+
+.neptune {
+    background-image: url("Images/Neptune.jpg");
+    height: 5%;
+    width: 5%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pluto-box {
+    height: 27rem;
+    width: 27rem;
+    animation: rotation 45s linear infinite;
+    position: absolute;
+}
+
+.pluto {
+    background-image: url("Images/Pluto.jpg");
+    height: 5%;
+    width: 5%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
